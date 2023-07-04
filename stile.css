@@ -1,0 +1,102 @@
+body {
+    max-width: 100%;
+    position: static;
+    background-color: rgb(226, 226, 226);
+    font-family: sans-serif;
+    align-items: center;
+    
+}
+.rectangle0 {
+    align-items: center;
+}
+.navbar1 {
+    position: absolute;
+    top: 35px;
+    right: 5px;
+    
+}
+.h1 {
+    font-size : 64px;
+    align-self: center;
+    left: 64px;
+}
+.rectangle1 {
+    background-color: rgb(43, 43, 43);
+    max-height: 250px;
+    align-self: center;
+   
+}
+
+.rectangle2 {
+    background-color:rgb(226, 226, 226) ;
+    height: 64px;
+    align-self: center;
+}
+h2 {
+    color: white;
+    text-align: center;
+    line-height: 125px;
+} 
+main {
+    max-width: 1200px;
+    margin: auto;
+    align-self: center;
+}
+.img {
+    border: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+.grid img {
+    object-fit: cover;
+    height: 700px;
+    width: 400px;
+    border-radius: 5%;
+    
+}
+.grid a {
+    position: relative;
+    display: block;
+    color: #fff;
+}
+
+.grid a:hover:before {
+    border-radius: 5%; 
+    content:"";
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.grid a span {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: none; 
+}
+
+.grid a:hover span {
+    display: block;
+    font-size: 24px; 
+}
+
+.rectangle3 {
+    height: 64px;
+    color: rgb(226, 226, 226);
+}
+footer {
+    background-color:rgb(43, 43, 43);
+    height: 500px;
+}
+ footer .navbar2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+}
+

@@ -1,0 +1,70 @@
+body {
+    max-width: 100%;
+    position: static;
+    background-color: rgb(226, 226, 226);
+    font-family: sans-serif;
+    align-items: center;
+    
+}
+.rectangle0 {
+    align-items: center;
+}
+.navbar1 {
+    position: absolute;
+    top: 35px;
+    right: 5px;
+    
+}
+.h1 {
+    font-size : 64px;
+    align-self: center;
+    left: 64px;
+}
+.rectangle1 {
+    background-color: rgb(43, 43, 43);
+    max-height: 250px;
+    align-self: center;
+   
+}
+
+main {
+    
+}
+ main .rectangle2 {
+    background-color: white;
+    border-radius: 5%;
+    height: 500px;
+    width: 1195px;
+    margin: auto;
+    
+}
+.rectangle2 .text-box {
+    height: 710px;
+    width: 860px;
+    object-fit: cover;
+    margin: auto;
+    position: relative;
+    margin top: 20%;
+    
+}
+.rectangle2 h1{
+    text-align: center;
+    line-height: 32px;
+    font-size: 32px;
+}
+.rectangle2 p{
+    text-align: justify;
+}
+.rectangle3 {
+    height: 64px;
+    color: rgb(226, 226, 226);
+}
+footer {
+    background-color:rgb(43, 43, 43);
+    height: 500px;
+}
+footer .navbar2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+}    
